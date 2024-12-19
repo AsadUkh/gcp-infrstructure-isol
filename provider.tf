@@ -10,7 +10,7 @@ provider "google-beta" {
 
 
 
-provider "google" {
-  #   impersonate_service_account = "project-factory@mtech-cloudservices-prj.iam.gserviceaccount.com"
-  project = var.project_id
-}
+# provider "google" {
+#   #   impersonate_service_account = "project-factory@mtech-cloudservices-prj.iam.gserviceaccount.com"
+#   project = var.project_id
+# }
